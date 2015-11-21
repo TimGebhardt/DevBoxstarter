@@ -40,6 +40,7 @@ cinstm NugetPackageExplorer
 cinstm windbg
 cinstm linqpad4
 cinstm virtualbox
+cinstm sourcetree
 cinstm gpg4win
 cinstm python2
 choco install sublimetext3
@@ -65,6 +66,7 @@ choco install windirstat
 choco install putty
 choco install filezilla
 cinstm f.lux
+cinstm keepass.install
 
 #cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst IIS-WebServerRole -source windowsfeatures
