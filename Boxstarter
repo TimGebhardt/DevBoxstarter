@@ -47,6 +47,8 @@ choco install sublimetext3.packagecontrol
 choco install git
 choco install githubforwindows
 choco install Powershell
+choco install dotpeek
+choco install vagrant
 
 #Browsers
 cinstm googlechrome
@@ -58,7 +60,11 @@ cinstm adobereader
 cinstm javaruntime
 cinstm conemu
 cinstm lastpass
-
+choco install paint.net
+choco install windirstat
+choco install putty
+choco install filezilla
+cinstm f.lux
 
 #cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst IIS-WebServerRole -source windowsfeatures
