@@ -16,10 +16,10 @@ Install-WindowsUpdate -AcceptEula
 if (Test-PendingReboot) { Invoke-Reboot }
 
 # Visual Studio SDK required for PoshTools extension
-cinstm VS2013SDK
+choco install -y VS2013SDK
 if (Test-PendingReboot) { Invoke-Reboot }
 
-cinstm DotNet3.5 # Not automatically installed with VS 2013. Includes .NET 2.0. Uses Windows Features to install.
+choco install -y DotNet3.5 # Not automatically installed with VS 2013. Includes .NET 2.0. Uses Windows Features to install.
 if (Test-PendingReboot) { Invoke-Reboot }
 
 # VS extensions
@@ -33,45 +33,45 @@ Install-ChocolateyVsixPackage  "AttachToW3WP" https://visualstudiogallery.msdn.m
 Install-ChocolateyPackage "AWSToolsAndSDKForNet" "msi" "/quiet" "http://sdk-for-net.amazonwebservices.com/latest/AWSToolsAndSDKForNet.msi"
 
 #Other dev tools
-cinstm fiddler4
-cinstm diffmerge
-cinstm ProcExp
-cinstm NugetPackageExplorer
-cinstm windbg
-cinstm linqpad4
-cinstm virtualbox
-cinstm sourcetree
-cinstm gpg4win
-cinstm python2
-cinstm sublimetext3
-cinstm sublimetext3.packagecontrol
-cinstm git
-cinstm githubforwindows
-cinstm Powershell
-cinstm dotpeek
-cinstm vagrant
+choco install -y fiddler4
+choco install -y diffmerge
+choco install -y ProcExp
+choco install -y NugetPackageExplorer
+choco install -y windbg
+choco install -y linqpad4
+choco install -y virtualbox
+choco install -y sourcetree
+choco install -y gpg4win
+choco install -y python2
+choco install -y sublimetext3
+choco install -y sublimetext3.packagecontrol
+choco install -y git
+choco install -y githubforwindows
+choco install -y Powershell
+choco install -y dotpeek
+choco install -y vagrant
 
 #Browsers
-cinstm googlechrome
-cinstm firefox
+choco install -y googlechrome
+choco install -y firefox
 
 #Other essential tools
-cinstm 7zip
-cinstm adobereader
-cinstm javaruntime
-cinstm conemu
-cinstm lastpass
-cinstm paint.net
-cinstm windirstat
-cinstm putty
-cinstm filezilla
-cinstm f.lux
-cinstm keepass.install
+choco install -y 7zip
+choco install -y adobereader
+choco install -y javaruntime
+choco install -y conemu
+choco install -y lastpass
+choco install -y paint.net
+choco install -y windirstat
+choco install -y putty
+choco install -y filezilla
+choco install -y f.lux
+choco install -y keepass.install
 
 #cinst Microsoft-Hyper-V-All -source windowsFeatures
-cinst IIS-WebServerRole -source windowsfeatures
-cinst IIS-HttpCompressionDynamic -source windowsfeatures
-cinst IIS-ManagementScriptingTools -source windowsfeatures
-cinst IIS-WindowsAuthentication -source windowsfeatures
+choco install -y IIS-WebServerRole -source windowsfeatures
+choco install -y IIS-HttpCompressionDynamic -source windowsfeatures
+choco install -y IIS-ManagementScriptingTools -source windowsfeatures
+choco install -y IIS-WindowsAuthentication -source windowsfeatures
 
 
