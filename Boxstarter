@@ -43,13 +43,13 @@ cinstm virtualbox
 cinstm sourcetree
 cinstm gpg4win
 cinstm python2
-choco install sublimetext3
-choco install sublimetext3.packagecontrol
-choco install git
-choco install githubforwindows
-choco install Powershell
-choco install dotpeek
-choco install vagrant
+cinstm sublimetext3
+cinstm sublimetext3.packagecontrol
+cinstm git
+cinstm githubforwindows
+cinstm Powershell
+cinstm dotpeek
+cinstm vagrant
 
 #Browsers
 cinstm googlechrome
@@ -61,10 +61,10 @@ cinstm adobereader
 cinstm javaruntime
 cinstm conemu
 cinstm lastpass
-choco install paint.net
-choco install windirstat
-choco install putty
-choco install filezilla
+cinstm paint.net
+cinstm windirstat
+cinstm putty
+cinstm filezilla
 cinstm f.lux
 cinstm keepass.install
 
