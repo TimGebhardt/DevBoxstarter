@@ -50,6 +50,7 @@ choco install -y githubforwindows
 choco install -y Powershell
 choco install -y dotpeek
 choco install -y vagrant
+choco install -y greenshot
 
 #Browsers
 choco install -y googlechrome
